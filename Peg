@@ -7,7 +7,7 @@ public class Peg  {
 
     public void addBead(Bead bead){      // Adding the bead to the peg
 
-        if(height>=4){
+        if(height>3){
 
             System.err.println("Maximum height of the Peg reached!");   // Printing an error line when going out of bounds
 
